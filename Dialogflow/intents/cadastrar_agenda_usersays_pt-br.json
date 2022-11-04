@@ -1,0 +1,114 @@
+[
+  {
+    "id": "17191e1a-c32e-4f02-988f-c22b465b1185",
+    "data": [
+      {
+        "text": "adicionar compromisso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8276d3a8-12e1-47e0-bd6a-09edace87bda",
+    "data": [
+      {
+        "text": "criar evento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2c862fe5-5d6e-4ad1-8f5b-b28ac071bbf9",
+    "data": [
+      {
+        "text": "adicionar novo evento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e5ec8b55-4b74-494c-b57b-7077a8e289bf",
+    "data": [
+      {
+        "text": "novo compromisso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ca03b726-7fdc-40bd-9519-d7ba495540cd",
+    "data": [
+      {
+        "text": "quero anotar na agenda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "200906c7-9f61-4b54-8d2e-e50ee9810907",
+    "data": [
+      {
+        "text": "fechar a agenda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "bd76f92e-a8c0-44c1-a107-eb25b0178ece",
+    "data": [
+      {
+        "text": "marcar na agenda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "77fe1421-3161-4ad4-bd46-98e7264ffe77",
+    "data": [
+      {
+        "text": "gostaria de cadastrar ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "userDefined": false
+      },
+      {
+        "text": " compromisso na agenda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

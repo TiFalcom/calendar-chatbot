@@ -1,0 +1,58 @@
+[
+  {
+    "id": "c85fb17f-08dd-4478-8d13-e7a52ec56466",
+    "data": [
+      {
+        "text": "quero consultar meus compromissos de ",
+        "userDefined": false
+      },
+      {
+        "text": "um dia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b84e8d70-443d-41c0-b4ef-001beace2eb3",
+    "data": [
+      {
+        "text": "quero ver meus compromissos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ac0e7364-67fe-4b63-87d0-4c2d301e1fa0",
+    "data": [
+      {
+        "text": "gostaria de ver minha agenda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "361d2033-ba34-41d4-b5e0-a9bfb56f647f",
+    "data": [
+      {
+        "text": "quero consultar minha agenda",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

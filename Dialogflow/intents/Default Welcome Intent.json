@@ -1,0 +1,41 @@
+{
+  "id": "ee9427ff-4197-42ca-a766-e8fba4c9c685",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Sejá Bem Vindo ao Agenda-Bot! Aqui você pode consultar eventos na agenda, salvar novos eventos, deletar eventos existentes e verificar feriados!",
+            "Olá! Sejá Bem Vindo ao Agenda-Bot! Com o que posso te ajudar?",
+            "Eu sou o Agenda-Bot, com o que posso te ajudar hoje?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

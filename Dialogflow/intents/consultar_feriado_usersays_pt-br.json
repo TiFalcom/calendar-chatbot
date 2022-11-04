@@ -1,0 +1,49 @@
+[
+  {
+    "id": "f536f272-b2a7-4b4c-8b3d-a634810d01ea",
+    "data": [
+      {
+        "text": "tem feriado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "3327104d-76df-4f83-ad26-5195e0e8a14d",
+    "data": [
+      {
+        "text": "saber se é feriado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8b719e1d-3dbe-46d9-bb5e-2cb6fd611af5",
+    "data": [
+      {
+        "text": "consultar se ",
+        "userDefined": false
+      },
+      {
+        "text": "um dia",
+        "userDefined": false
+      },
+      {
+        "text": " tem feriado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "id": "648eb1c2-d548-42c3-ba0e-b1b025ebde2a",
+  "name": "cadastrar_agenda",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bd8d63a3-f4c3-4458-82fc-b4543b7f272c",
+          "name": "data",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$data",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Digite a data do compromisso que deseja adicionar:"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Poderia digitar a data do evento que deseja incluir na agenda?"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Digite a data para inclusão do evento na agenda:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "17b97f37-1f62-4236-b2b9-5705e04cc198",
+          "name": "evento",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$evento",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Digite uma descrição para o evento:"
+            },
+            {
+              "lang": "pt-br",
+              "value": "De um nome para o compromisso:"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Qual o nome do compromisso?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "dea1524d-4268-46e1-a56b-f404bf012b65",
+          "name": "horario",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$horario",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Qual o horário?"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Digite o horário:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

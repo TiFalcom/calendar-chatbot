@@ -1,0 +1,60 @@
+{
+  "id": "11486bb8-80e7-4563-87fb-e84d3d3c0ef5",
+  "name": "consultar_feriado",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8c3646cd-e697-48de-9972-e70b2c857282",
+          "name": "data",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$data",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Pode informar a data que deseja saber se há feriado?"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Poderia informar a data?"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Qual data deseja consultar?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

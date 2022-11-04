@@ -1,0 +1,60 @@
+{
+  "id": "218a7bb9-1b53-4564-a0a1-b7b7e959b3a7",
+  "name": "consultar_agenda",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9d148cb3-df25-40d2-90b9-d75c62fb5b5f",
+          "name": "data",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$data",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Poderia informar a data que deseja consultar sua agenda?"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Qual data deseja consultar em sua agenda?"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Poderia informar a data que deseja verificar na sua agenda?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

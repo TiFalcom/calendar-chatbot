@@ -1,0 +1,79 @@
+{
+  "id": "6bf7b357-10a7-474e-a556-3305d20f582d",
+  "name": "deletar_agenda",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ec50b941-7adc-492b-8561-c5934513ad3a",
+          "name": "data",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$data",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Poderia informar a data do evento que deseja deletar?"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Poderia digitar a data do compromisso que deseja excluir?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "94b9992c-a650-4244-a0fb-a039c00925b8",
+          "name": "evento",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$evento",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Informe o nome do evento que deseja excluir:"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Poderia informar o nome do compromisso que deseja excluir?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
