@@ -5,7 +5,6 @@ Implementar um chatbot utilizando conhecimentos de PLN atraés do DialogFlow int
 
 ## Funcionalidades
 <ol>
-  <li>Informar a previsão do tempo conforme data e região informada.</li>
   <li>Funcionamento de uma agenda pessoal. Salvar, consultar e excluir eventos</li>
   <li>Informar feriados.</li>
 </ol>
